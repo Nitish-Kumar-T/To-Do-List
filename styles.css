@@ -60,7 +60,6 @@ button:hover {
     opacity: 0.7;
 }
 
-/* Include previous CSS and add: */
 
 #due-date-input, #priority-input {
     padding: 10px;
@@ -90,4 +89,23 @@ button:hover {
 .task-date {
     font-size: 0.8em;
     color: #777;
+}
+
+
+#category-input, #search-input, #sort-select {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#task-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.task-category {
+    font-size: 0.8em;
+    color: #555;
+    font-style: italic;
 }

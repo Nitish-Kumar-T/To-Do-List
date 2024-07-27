@@ -59,3 +59,35 @@ button:hover {
     text-decoration: line-through;
     opacity: 0.7;
 }
+
+/* Include previous CSS and add: */
+
+#due-date-input, #priority-input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.task-item {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 5px solid;
+}
+
+.task-item.low { border-left-color: #4CAF50; }
+.task-item.medium { border-left-color: #FFC107; }
+.task-item.high { border-left-color: #F44336; }
+
+.task-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.task-date {
+    font-size: 0.8em;
+    color: #777;
+}
